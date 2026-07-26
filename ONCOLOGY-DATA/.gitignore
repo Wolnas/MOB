@@ -1,0 +1,30 @@
+# Virtual Environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Firecrawl outputs muy pesados
+raw/**/*.html
+
+# Modelos
+*.pt
+*.pth
+*.h5
+
+# Kaggle downloads
+*.zip
